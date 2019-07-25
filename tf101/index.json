@@ -1,0 +1,42 @@
+{
+  "title": "Terraform 101",
+  "description": "Terraform basics",
+  "difficulty": "beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Install terraform client",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - terraform init",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - terraform plan",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - terraform apply",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5 - terraform destroy",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "node"
+  }
+}
