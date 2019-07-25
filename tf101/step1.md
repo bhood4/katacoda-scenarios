@@ -11,6 +11,7 @@ Terraform is a go binary CLI and is easy to install and use. The install instruc
 
 ## confirm terraform version
 `terraform version`{{execute}}
+<pre>Terraform v0.12.5</pre>
 
 ## terraform help
 `terraform `{{execute}}
