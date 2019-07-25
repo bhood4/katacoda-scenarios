@@ -6,20 +6,20 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1 - terraform client",
-        "text": "step1.md"
+        "title": "Terraform install",
+        "text": "install.md"
       },
       {
-        "title": "Step 2 - terraform init",
-        "text": "step2.md"
+        "title": "Create Terraform Config",
+        "text": "config.md"
       },
       {
-        "title": "Step 3 - terraform plan",
-        "text": "step3.md"
+        "title": "Plan Terraform Actions",
+        "text": "plan.md"
       },
       {
-        "title": "Step 4 - terraform apply",
-        "text": "step4.md"
+        "title": "Apply Terraform Actions",
+        "text": "apply.md"
       },
       {
         "title": "Step 5 - terraform destroy",
