@@ -1,19 +1,15 @@
 Terraform is a go client binary used to perform Infrastructure As Code to managem cloud resources.
 
-## Task
+## Get the zip file with the terraform go client, unzip and put in /usr/local/bin
 
 `curl https://releases.hashicorp.com/terraform/0.11.13/terraform_0.11.13_linux_amd64.zip -O; unzip terraform_0.11.13_linux_amd64.zip; rm terraform_0.11.13_linux_amd64.zip; sudo mv terraform /usr/local/bin`{{execute}}
 
-Clone our example repository that contains the set of documentation with the following command:
+## confirm terraform is installed and see the version
+`terraform version`{{execute}}
 
-`git clone https://github.com/katacoda/scenario-examples.git katacoda-scenario-examples`{{execute}}
-
-Within the repository, you will see a set of examples of implementing various Katacoda functionality.
-
-The scenario you are currently reading is in the directory `ls -lha katacoda-scenario-examples/create-scenario-101`{{execute}}. The directory name is what defines the URL.
+## terraform commands
+`terraform `{{execute}}
 
 An example of the current step is `katacoda-scenario-examples/create-scenario-101/step1.md`{{open}}
-
-All the steps are collected via a JSON file, for example, `katacoda-scenario-examples/create-scenario-101/index.json`{{open}}.
 
 The JSON file defines the scenario title, the description, steps order, the UI layout and environment. You can find more about the layouts within our scenarios at [katacoda.com/docs/scenarios/layouts](https://katacoda.com/docs/scenarios/layouts) and environments at [katacoda.com/docs/scenarios/environments](https://katacoda.com/docs/scenarios/environments).
