@@ -22,8 +22,8 @@
         "text": "apply.md"
       },
       {
-        "title": "Step 5 - terraform destroy",
-        "text": "step5.md"
+        "title": "Inspect Infrastructure",
+        "text": "inspect.md"
       }
     ],
     "intro": {
