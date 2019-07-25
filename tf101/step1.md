@@ -2,7 +2,7 @@ Terraform is a go client binary used to perform Infrastructure As Code to manage
 
 ## Task
 
-`curl https://releases.hashicorp.com/terraform/0.11.13/terraform_0.11.13_linux_amd64.zip -O; unzip terraform_0.11.13_linux_amd64.zip; mv terraform /usr/local/bin`{{execute}}
+`curl https://releases.hashicorp.com/terraform/0.11.13/terraform_0.11.13_linux_amd64.zip -O; unzip terraform_0.11.13_linux_amd64.zip; rm terraform_0.11.13_linux_amd64.zip; sudo mv terraform /usr/local/bin`{{execute}}
 
 Clone our example repository that contains the set of documentation with the following command:
 
