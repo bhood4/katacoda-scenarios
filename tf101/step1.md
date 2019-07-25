@@ -7,7 +7,7 @@ Terraform is a go binary CLI and is easy to install and use. The install instruc
 
 ## Download the linux zip with terraform client, unzip and put in /usr/local/bin
 
-`curl https://releases.hashicorp.com/terraform/0.11.13/terraform_0.11.13_linux_amd64.zip -O; unzip terraform_0.11.13_linux_amd64.zip; rm terraform_0.11.13_linux_amd64.zip; sudo mv terraform /usr/local/bin`{{execute}}
+`curl https://releases.hashicorp.com/terraform/0.12.5/terraform_0.12.5_linux_amd64.zip -O; unzip terraform_0.12.5_linux_amd64.zip; rm terraform_0.12.5_linux_amd64.zip; sudo mv terraform /usr/local/bin`{{execute}}
 
 ## confirm terraform version
 `terraform version`{{execute}}
