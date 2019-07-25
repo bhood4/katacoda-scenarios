@@ -1,15 +1,18 @@
-Terraform is a go client binary used to perform Infrastructure As Code to managem cloud resources.
+Terraform is a tool from Hashicorp which enables you to safely and predictably create, change, and improve infrastructure. It is an open source tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.
 
-## Get the zip file with the terraform go client, unzip and put in /usr/local/bin
+With terraform, you Define infrastructure as code to increase operator productivity and transparency.
+Terraform provides an elegant user experience for operators to safely and predictably make changes to infrastructure, with a provider model to support unified management approach and workflow across cloud services. Common Terraform configurations can be packaged as modules and used across teams and organizations.
+
+Terraform is a go binary CLI and is easy to install and use. The install instructions vary by platform, linux is assumed for this course.
+
+## Download the linux zip with terraform client, unzip and put in /usr/local/bin
 
 `curl https://releases.hashicorp.com/terraform/0.11.13/terraform_0.11.13_linux_amd64.zip -O; unzip terraform_0.11.13_linux_amd64.zip; rm terraform_0.11.13_linux_amd64.zip; sudo mv terraform /usr/local/bin`{{execute}}
 
-## confirm terraform is installed and see the version
+## confirm terraform version
 `terraform version`{{execute}}
 
-## terraform commands
+## terraform help
 `terraform `{{execute}}
 
-An example of the current step is `katacoda-scenario-examples/create-scenario-101/step1.md`{{open}}
-
-The JSON file defines the scenario title, the description, steps order, the UI layout and environment. You can find more about the layouts within our scenarios at [katacoda.com/docs/scenarios/layouts](https://katacoda.com/docs/scenarios/layouts) and environments at [katacoda.com/docs/scenarios/environments](https://katacoda.com/docs/scenarios/environments).
+You can find more about terraform on the official Hashicorp Terraform site at [https://www.terraform.io/](https://www.terraform.io)
