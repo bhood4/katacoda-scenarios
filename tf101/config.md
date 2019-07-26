@@ -6,19 +6,22 @@ A resource are components of your infrastructure, for example a container or ima
 
 You can use any editor to write the config.tf file. The first section defines a docker provider with the host where we want to apply our configuration too.
 
-provider "docker" {
+<pre class="file" data-filename="config.tf" data-target="replace">provider "docker" {
   host = "tcp://docker:2345/"
 }
+</pre>
 
 We can now start defining the resources of our infrastructure. The first resource is our Docker image. A resource has two parameters, one is a TYPE and second a NAME. The type is docker_image and the name is nginx. Within the block we define the name and tag of the Docker Image.
 
-resource "docker_image" "nginx" {
+
+<pre class="file" data-filename="config.tf" data-target="append">resource "docker_image" "nginx" {
   name = "nginx:1.11-alpine"
 }
+</pre>
 
 We can define our container resource. The resource type is docker_container and name as nginx-server. Within the block we set the resource parameters. We can reference other resources, such as a the image.
 
-resource "docker_container" "nginx-server" {
+<pre class="file" data-filename="config.tf" data-target="append">resource "docker_container" "nginx-server" {
   name = "nginx-server"
   image = "${docker_image.nginx.latest}"
   ports {
@@ -30,4 +33,4 @@ resource "docker_container" "nginx-server" {
     read_only = true
   }
 }
-
+</pre>
