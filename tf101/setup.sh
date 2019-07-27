@@ -1,1 +1,3 @@
-mkdir -p nginx; cd nginx/
+mkdir -p nginx 
+cd nginx
+vi main.tf

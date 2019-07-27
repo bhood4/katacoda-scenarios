@@ -14,7 +14,7 @@ Providers are configured in terraform config files with a .tf extension, which t
 
 This config file defines a docker provider with the host where we want to apply our configuration
 
-<pre class="file" data-filename="provider.tf" data-target="replace">provider "docker" {
+<pre class="file" data-filename="main.tf" data-target="replace">provider "docker" {
   host = "tcp://docker:2345/"
 }
 </pre>

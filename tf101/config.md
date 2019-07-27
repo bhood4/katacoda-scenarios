@@ -1,4 +1,4 @@
-Terraform works based on configuration files, in this case main.tf. The configuration is a declarative expression of the desired state of your infrastructure. Terraform commands uses all files in the directory that have a .tf extension as configuration input. You can use any text editor to write the config.tf file.
+Terraform works based on configuration files, in this case main.tf. The configuration is a declarative expression of the desired state of your infrastructure. Terraform commands uses all files in the directory that have a .tf extension as configuration input.
 
 The config files use a simple, powerful templating language [https://www.terraform.io/docs/configuration/syntax.html](HCL)
 
