@@ -64,7 +64,7 @@
     }
   },
   "files": [
-    "main.tf", "variables.tf"
+    "nginx/main.tf", "nginx/variables.tf", "nginx/outputs.tf"
   ],
   "environment": {
     "uilayout": "editor-terminal"
