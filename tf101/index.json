@@ -8,6 +8,7 @@
       {
         "title": "Terraform install",
         "text": "install.md",
+        "code": "setup.sh",
         "verify": "install-verify.sh"
       },
       {

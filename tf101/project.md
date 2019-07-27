@@ -1,6 +1,6 @@
 Related .tf configuration files for a project are place in a common directory. 
 Additional files in the directory include:
-* .terraform: Folder containing downloaded provider binaries and local state cache
+* .terraform.d: Folder containing downloaded provider binaries and local state cache
 * variables.tf: Consolidated variable initialisation
 * outputs.tf: Consolidated outputs
 * .tfvars: Variable overrides 
@@ -9,7 +9,7 @@ Additional files in the directory include:
 * Each directory brings a dedicated state file - blast radius stays small
 * Follow standardized file naming, e.g. main.tf, varialbes in variables.tf, outputs in outputs.tf
 
-<pre>├── compute
+<pre>├── nginx
 │   ├── main.tf
 │   ├── storage.tf
 │   ├── variable_overrides.tfvar
