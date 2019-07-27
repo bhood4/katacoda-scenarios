@@ -18,6 +18,3 @@ Variables are inputs to the terraform configuration
 
 * Alternatively, variables can be overridden using a .tfvars file to pass the value
 `terraform plan -var-file=dev.tfvars`{{execute}}
-
-TODO: mkdir (not here)
-TODO: dev.tfvars

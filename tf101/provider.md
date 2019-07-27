@@ -14,11 +14,11 @@ Providers are configured in terraform config files with a .tf extension, which t
 
 This config file defines a docker provider with the host where we want to apply our configuration
 
-<pre class="file" data-filename="provider.tf" data-target="replace">provider "docker" {
+<pre class="file" data-filename="/root/nginx/provider.tf" data-target="replace">provider "docker" {
   host = "tcp://docker:2345/"
 }
 </pre>
 
 Multiple providers can be referenced in the same project
 
-For more info on Providers, see [https://www.terraform.io/docs/configuration/providers.html]
+For more info, see [https://www.terraform.io/docs/configuration/providers.html](Provider documentation)
