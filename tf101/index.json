@@ -8,12 +8,12 @@
       {
         "title": "Terraform install",
         "text": "install.md",
-        "code": "setup.sh",
         "verify": "install-verify.sh"
       },
       {
         "title": "Terraform Providers",
         "text": "provider.md"
+        "code": "setup.sh",
       },
       {
         "title": "Terraform Config",
