@@ -1,6 +1,6 @@
 Related terraform files for a project are place in a common directory. 
 In addition to .tf configuration files, other files in the directory include:
-* .terraform.d: Folder containing downloaded provider binaries and local state cache
+* .terraform: Folder containing downloaded provider binaries and local state cache
 * variables.tf: Consolidated variable initialisation
 * outputs.tf: Consolidated outputs
 * .tfvars: Variable overrides 
@@ -26,3 +26,5 @@ Recommendations
     ├── variable_overrides.tfvar
     └── variables.tf
 </pre>
+
+We have created the directory 'nginx' for the example terraform project and changed into that directory.

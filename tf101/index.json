@@ -11,9 +11,13 @@
         "verify": "install-verify.sh"
       },
       {
+        "title": "Terraform Projects",
+        "text": "project.md"
+        "code": "setup.sh"
+      },
+      {
         "title": "Terraform Providers",
         "text": "provider.md",
-        "code": "setup.sh"
       },
       {
         "title": "Terraform Config",
@@ -26,6 +30,10 @@
       {
         "title": "Terraform Projects",
         "text": "project.md"
+      },
+      {
+        "title": "Terraform Init",
+        "text": "init.md"
       },
       {
         "title": "Plan Terraform Actions",
