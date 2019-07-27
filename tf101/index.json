@@ -12,8 +12,8 @@
       },
       {
         "title": "Terraform Providers",
-        "text": "provider.md"
-        "code": "setup.sh",
+        "text": "provider.md",
+        "code": "setup.sh"
       },
       {
         "title": "Terraform Config",
