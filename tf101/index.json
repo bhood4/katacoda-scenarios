@@ -63,6 +63,9 @@
       "text": "finish.md"
     }
   },
+  "files": [
+    "main.tf", "variables.tf"
+  ],
   "environment": {
     "uilayout": "editor-terminal"
   },

@@ -7,7 +7,7 @@ A resource is a components of your infrastructure associated with a provider. Fo
 We can now start defining the resources of our infrastructure. The first resource is our Docker image. A resource has two parameters, one is a TYPE and second a NAME. The type is docker_image and the name is nginx. Within the block we define the name and tag of the Docker Image.
 
 
-<pre class="file" data-filename="main.tf" data-target="replace">resource "docker_image" "nginx" {
+<pre class="file" data-filename="main.tf" data-target="append">resource "docker_image" "nginx" {
   name = "nginx:1.11-alpine"
 }
 </pre>
