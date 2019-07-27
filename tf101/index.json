@@ -11,8 +11,20 @@
         "verify": "install-verify.sh"
       },
       {
-        "title": "Create Terraform Config",
+        "title": "Terraform Providers",
+        "text": "provider.md"
+      },
+      {
+        "title": "Terraform Config",
         "text": "config.md"
+      },
+      {
+        "title": "Variables",
+        "text": "variables.md"
+      },
+      {
+        "title": "Terraform Projects",
+        "text": "project.md"
       },
       {
         "title": "Plan Terraform Actions",
@@ -25,6 +37,10 @@
       {
         "title": "Inspect Infrastructure",
         "text": "inspect.md"
+      },
+      {
+        "title": "State file",
+        "text": "statefile.md"
       },
       {
         "title": "Update Infrastructure",
