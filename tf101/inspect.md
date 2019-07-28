@@ -6,4 +6,4 @@ You can inspect this in future using the terraform CLI
 
 `terraform show`{{execute}}
 
-
+The nginx dashboard on the right show the rendered /home/scrapbook/tutorial/www/index.html 
