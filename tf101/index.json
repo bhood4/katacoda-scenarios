@@ -48,6 +48,10 @@
         "text": "statefile.md"
       },
       {
+        "title": "Graph",
+        "text": "graph.md"
+      },
+      {
         "title": "Update Infrastructure",
         "text": "update.md"
       },
@@ -61,7 +65,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "background.sh"
     },
     "finish": {
       "text": "finish.md"

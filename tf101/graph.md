@@ -5,4 +5,9 @@ A directed graph of dependencies can be show using the CLI:
 
 `terraform graph`{{execute}}
 
+A image visualizing this can be made using dot:
+
+`terraform graph| dot -Tpng > graph.png`{{execute}}
+
+![graph.png](/root/nginx/graph.png)
 
