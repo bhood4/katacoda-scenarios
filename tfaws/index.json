@@ -11,10 +11,6 @@
         "verify": "install-verify.sh"
       },
       {
-        "title": "GIT checkout",
-        "text": "git.md"
-      },
-      {
         "title": "Network",
         "text": "network.md"
       },
