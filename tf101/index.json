@@ -12,12 +12,12 @@
       },
       {
         "title": "Terraform Projects",
-        "text": "project.md"
+        "text": "project.md",
         "code": "setup.sh"
       },
       {
         "title": "Terraform Providers",
-        "text": "provider.md",
+        "text": "provider.md"
       },
       {
         "title": "Terraform Config",
