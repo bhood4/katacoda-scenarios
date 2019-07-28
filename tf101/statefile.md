@@ -48,7 +48,7 @@ Another useful state related command is 'terraform console'. This is an interact
 and can help with developing interpolation.
 
 `terraform console`{{execute}}
-<pre>docker_container.nginx-server[0].ports[0].external
+<pre>
 > docker_container.nginx-server[0].ports[0].external
 32768
 </pre>
