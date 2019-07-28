@@ -1,6 +1,6 @@
 Terraform works based on configuration files, in this case main.tf. The configuration is a declarative expression of the desired state of your infrastructure. Terraform commands uses all files in the directory that have a .tf extension as configuration input.
 
-The config files use a simple, powerful templating language [https://www.terraform.io/docs/configuration/syntax.html](HCL)
+The config files use a simple, powerful [HCL templating language](https://www.terraform.io/docs/configuration/syntax.html)
 
 A resource is a components of your infrastructure associated with a provider. For example a container or image resource from the docker provider is used to manage real containers and images.
 
@@ -33,4 +33,4 @@ We can define our container resource. The resource type is docker_container and 
 
 * Count makes it easy to create multiples of resources - this example runs the container container_count times. Resources with count can be accessed as list elements in HCL "interpolation" 
 
-For more information on HCL functions and interpolation, see [https://www.terraform.io/docs/configuration-0-11/interpolation.html]
+See more information on [HCL functions and interpolation](https://www.terraform.io/docs/configuration-0-11/interpolation.html)

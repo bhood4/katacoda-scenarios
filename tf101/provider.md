@@ -8,7 +8,7 @@
 
 * Multiple providers can be referenced in the same project
 
-* There are many [https://www.terraform.io/docs/providers/index.html](standard providers), as well as a large number of thirdparty custom providers
+* There are many [standard providers](https://www.terraform.io/docs/providers/index.html), as well as a large number of thirdparty custom providers
 
 Providers are configured in terraform config files with a .tf extension, which typically include configuraiton of the API endpoint, credentials, debug settings, and other global parameters for a specific API integration.
 
@@ -22,5 +22,4 @@ This config file defines a docker provider with the host where we want to apply 
 
 Multiple providers can be referenced in the same project
 
-For more info, see [https://www.terraform.io/docs/configuration/providers.html](Provider documentation)
-
+For more info, see [Provider documentation](https://www.terraform.io/docs/configuration/providers.html)
