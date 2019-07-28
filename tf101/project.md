@@ -1,6 +1,6 @@
 Related terraform files for a project are place in a common directory. 
 In addition to .tf configuration files, other files in the directory include:
-* .terraform: Folder containing downloaded provider binaries and local state cache
+* .terraform: Folder containing downloaded provider binaries 
 * variables.tf: Consolidated variable initialisation
 * outputs.tf: Consolidated outputs
 * .tfvars: Variable overrides 
