@@ -1,3 +1,9 @@
+
+You can check the configuration for errors and validates providers have been correctly initialised. Validate is provider-aware with specific cloud-provider errors.
+
+`terraform validate`{{execute}}
+
+
 Once the configuration has been defined we need to create an execution plan. Terraform describes the actions required to achieve the desired state. The plan can be saved using -out. We'll apply the execution plan in the next step.
 
 To create a plan, use the CLI

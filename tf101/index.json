@@ -32,11 +32,11 @@
         "text": "variables.md"
       },
       {
-        "title": "Plan Terraform Actions",
+        "title": "Validate and Plan",
         "text": "plan.md"
       },
       {
-        "title": "Apply Terraform Actions",
+        "title": "Terraform Apply",
         "text": "apply.md"
       },
       {
