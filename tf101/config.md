@@ -23,7 +23,7 @@ We can define our container resource. The resource type is docker_container and 
   }
   volumes {
     container_path  = "/usr/share/nginx/html"
-    host_path = "/root"
+    host_path = "/home/scrapbook/tutorial/www"
     read_only = true
   }
 }

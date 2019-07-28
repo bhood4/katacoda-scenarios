@@ -70,7 +70,7 @@
     ],
     "assets": {
         "host01": [
-            {"file": "index.html", "target": "/root/index.html", "chmod": "+r"}
+            {"file": "index.html", "target": "/home/scrapbook/tutorial/www/index.html", "chmod": "+r"}
         ]
     },
     "intro": {
@@ -87,8 +87,8 @@
   "environment": {
     "uilayout": "editor-terminal",
     "showdashboard": true,
-    "dashboards": [{"name": "Port 32768", "port": 32768},
-      {"name": "nginx", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}]
+    "dashboards": [{"name": "nginx32768", "port": 32768},
+      {"name": "nginx", "href": "https://[[HOST_SUBDOMAIN]]-32768-[[KATACODA_HOST]].environments.katacoda.com"}]
   },
   "backend": {
     "imageid": "ubuntu",
