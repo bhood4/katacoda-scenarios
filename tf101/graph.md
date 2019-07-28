@@ -9,5 +9,5 @@ A image visualizing this can be made using dot:
 
 `terraform graph| dot -Tpng > graph.png`{{execute}}
 
-![graph.png](/root/nginx/graph.png)
+![example graph.png](/katacoda-scenarios/tf101/assets/graph.png)
 
