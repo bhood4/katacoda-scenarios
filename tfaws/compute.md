@@ -6,9 +6,9 @@ run command export AWS_ACCESS_KEY_ID={your_access_key}
 run command export AWS_SECRET_ACCESS_KEY={your_secret_key}
 run command export AWS_DEFAULT_REGION={your_preferred_region}
 
-`run command terraform get`{{execute}}
+`terraform get`{{execute}}
 
-`run command terraform plan -var-file=./terraform.tfvars`{{execute}}
+`terraform plan -var-file=./terraform.tfvars`{{execute}}
 
-`run command terraform apply -state=./terraform.tfstate -var-file=./terraform.tfvara`{{execute}}
+`terraform apply -state=./terraform.tfstate -var-file=./terraform.tfvara`{{execute}}
 

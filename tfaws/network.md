@@ -1,5 +1,6 @@
 
-`cd contino_train/aws/environments/dev/networking`{{execute}}
+`cd /root/terraform-learn/aws/environments/dev/networking`{{execute}}
+
 
 open and edit terraform.tfvars according to your networking requirements
 run command export AWS_ACCESS_KEY_ID={your_access_key}
