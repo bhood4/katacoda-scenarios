@@ -32,7 +32,8 @@
     }
   },
   "files": [
-    "nginx/main.tf", "nginx/variables.tf", "nginx/dev.tfvars","index.html"
+    "terraform-learn/aws/environments/dev/networking/terraform.tfvars",
+    "terraform-learn/aws/environments/dev/compute/terraform.tfvars"
   ],
   "environment": {
     "uilayout": "editor-terminal"

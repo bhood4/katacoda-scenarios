@@ -8,3 +8,9 @@ Download linux platform zip, unzip, move to /usr/local/bin
 
 ## git clone
 `git clone https://github.com/contino/terraform-learn.git`{{execute}}
+
+## setup AWS env
+
+`export AWS_ACCESS_KEY_ID={your_access_key}`{{execute}}
+`export AWS_SECRET_ACCESS_KEY={your_secret_key}`{{execute}}
+`export AWS_DEFAULT_REGION={your_preferred_region}`{{execute}}
