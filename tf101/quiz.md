@@ -1,55 +1,21 @@
-Katacoda supports inline interactive quiz elements that can be included as any step within the scenario. The Quiz format supports different question and answer styles. Users cannot proceed until they have answered all the questions correctly.
 
-## Example Quiz
+## A quick quiz
 
-Within Q1, requires are users to enter the exact string.
+>>Q1: What command line is used to have terraform compare your current project state and show what the delats are to the desired state? <<
+=~= plan
 
->>Q1: Enter the exact string test<<
-=== test
+>>Q4: Local state storage is appropriate for most development scenarios <<
+() True
+(*) False
 
-For Q2, the question requires user to enter a string containing a certain keyword.
+>>Q3: When managing config .tf files <<
+[ ] any file in the directory with a .tf is used, so use whatever name you like
+[*] all files in the directorry with .tf extension are used, but stick to standard files names like main.tf and variables.tf
+[ ] you can use any filenames you like as long as you use vi to edit them
+[ ] you must use the filenames main.tf or terraform will not recognized your configuration 
 
->>Q2: Enter the string containing test<<
-=~= test
-
-Q3 is multiple choice question, requiring users to select all the correct answers.
-
->>Q3: Multiple Choice <<
-[*] Correct
-[*] Correct
-[ ] Incorrect
-
-Q4 is a single choice where users must select the correct answer.
-
->>Q4: Single Choice <<
-(*) Correct
-( ) Incorrect
-
-## Markdown
-
-All of the above questions have been defined within Markdown. There is no official syntax for a Quiz within markdown, as such the syntax for the above quiz is as follows:
-
-<pre>
->>Q1: Enter the extract string test<<
-=== test
-
->>Q2: Enter the string containing test<<
-=~= test
-
->>Q3: Multiple Choice <<
-[*] Correct
-[*] Correct
-[ ] Incorrect
-
->>Q4: Single Choice <<
-(*) Correct
-( ) Incorrect
-</pre>
-
-The ***** within single and multiple choice indicates the correct answer. The syntax **===** is exact match, while **=~=** is a string containing match.
-
-**Note:** There should not be a blank line between the question and the possible answers.
-
-## Correct and Incorrect Ansers
-
-When a user clicks **Check Answers**, the correct answers will appear with a Green tick! If they have entered anything incorrect they will be asked to check and try again.
+>>Q4: With respect to providers in terraform: <<
+( ) you can only use a single provider in your project and can only manage docker resourcest
+( ) you can use a limited list of providers to manage various IaaS, PaaS, and SaaS, but only one per project
+( ) you can use multiple stadard providers in the same project to manage various IaaS, PaaS, and SaaS, but only one provider per project
+( ) you can use multiple standard or custom providers in the same project, and even have mulitple instances of a single provider per project

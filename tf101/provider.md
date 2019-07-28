@@ -20,6 +20,8 @@ This config file defines a docker provider with the host where we want to apply 
 
 </pre>
 
-Multiple providers can be referenced in the same project
+Multiple providers can be referenced in the same project.
+
+Also, multiple instances of a single provider can be used with "alias", for instance with multiple docker hosts or aws regions.s
 
 For more info, see [Provider documentation](https://www.terraform.io/docs/configuration/providers.html)
