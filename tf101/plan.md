@@ -6,6 +6,10 @@ You can check the configuration for errors and validates providers have been cor
 
 Once the configuration has been defined we need to create an execution plan. Terraform describes the actions required to achieve the desired state. The plan can be saved using -out. We'll apply the execution plan in the next step.
 
+* Reads Terraform configuration, reads statefile (if it exists), computes a plan of changes required to meet desired state
+* Optionally write plan to disk + run later
+* Best practice: always run plan before apply and inspect plan 
+
 To create a plan, use the CLI
 
 `terraform plan`{{execute}}

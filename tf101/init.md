@@ -4,5 +4,4 @@ To initialize the project, use the CLI
 
 `terraform init`{{execute}}
 
-This creates the .terraform directory, and downloads all required plugins.
-
+This creates the .terraform directory, downloads all required plugins, and initializes the remote state backend if configured.
