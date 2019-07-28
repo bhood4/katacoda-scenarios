@@ -11,9 +11,8 @@ Recommendations
 * Follow standardized file naming, e.g. main.tf, varialbes in variables.tf, outputs in outputs.tf
 
 <pre>├── nginx
+│   ├── dev.tfvar
 │   ├── main.tf
-│   ├── storage.tf
-│   ├── variable_overrides.tfvar
 │   └── variables.tf
 ├── database
 │   ├── main.tf

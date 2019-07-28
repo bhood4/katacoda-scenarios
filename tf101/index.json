@@ -24,16 +24,12 @@
         "text": "config.md"
       },
       {
-        "title": "Variables",
-        "text": "variables.md"
-      },
-      {
-        "title": "Terraform Projects",
-        "text": "project.md"
-      },
-      {
         "title": "Terraform Init",
         "text": "init.md"
+      },
+      {
+        "title": "Variables",
+        "text": "variables.md"
       },
       {
         "title": "Plan Terraform Actions",
@@ -72,7 +68,7 @@
     }
   },
   "files": [
-    "nginx/main.tf", "nginx/variables.tf", "nginx/outputs.tf"
+    "nginx/main.tf", "nginx/variables.tf", "nginx/dev.tfvars"
   ],
   "environment": {
     "uilayout": "editor-terminal"

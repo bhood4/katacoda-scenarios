@@ -14,7 +14,10 @@ Variables are inputs to the terraform configuration
 * variables must be initialised before they are used (or defaulted).
 
 * Variables can be overridden using command line arguments
-`terraform plan -var 'container_count=2'`{{execute}}
+`terraform plan -var 'container_count=5'`{{execute}}
 
 * Alternatively, variables can be overridden using a .tfvars file to pass the value
+<pre class="file" data-filename="dev.tfvars" data-target="replace">container_count=3
+</pre>
+
 `terraform plan -var-file=dev.tfvars`{{execute}}
