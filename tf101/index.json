@@ -68,6 +68,11 @@
         "text": "quiz.md"
       }
     ],
+    "assets": {
+        "host01": [
+            {"file": "index.html", "target": "/root/index.html", "chmod": "+r"}
+        ]
+    },
     "intro": {
       "text": "intro.md",
       "courseData": "background.sh"
@@ -77,17 +82,16 @@
     }
   },
   "files": [
-    "nginx/main.tf", "nginx/variables.tf", "nginx/dev.tfvars"
+    "nginx/main.tf", "nginx/variables.tf", "nginx/dev.tfvars","index.html"
   ],
   "environment": {
     "uilayout": "editor-terminal",
     "showdashboard": true,
-    "dashboards": [{"name": "Port 80", "port": 80},
-      {"name": "URL", "href": "https://www.google.com"},
-      {"name": "Placeholder", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}]
+    "dashboards": [{"name": "Port 32768", "port": 32768},
+      {"name": "nginx", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}]
   },
   "backend": {
     "imageid": "ubuntu",
-    "port": 80
+    "port": 32768
   }
 }
