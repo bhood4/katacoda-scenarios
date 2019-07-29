@@ -1,6 +1,6 @@
 {
   "title": "Terraform 101",
-  "description": "Terraform basics",
+  "description": "Terraform basics (with docker nginx)",
   "difficulty": "beginner",
   "time": "20 minutes",
   "details": {
