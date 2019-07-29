@@ -82,7 +82,7 @@
     }
   },
   "files": [
-    "nginx/main.tf", "nginx/variables.tf", "nginx/dev.tfvars","/home/scrapbook/tutorial/www/ndex.html"
+    "nginx/main.tf", "nginx/variables.tf", "nginx/dev.tfvars","/home/scrapbook/tutorial/www/index.html"
   ],
   "environment": {
     "uilayout": "editor-terminal",
