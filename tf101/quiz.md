@@ -17,5 +17,5 @@
 >>Q4: With respect to providers in terraform: <<
 ( ) you can only use a single provider in your project and can only manage docker resourcest
 ( ) you can use a limited list of providers to manage various IaaS, PaaS, and SaaS, but only one per project
-( ) you can use multiple stadard providers in the same project to manage various IaaS, PaaS, and SaaS, but only one provider per project
+( ) you can use multiple standard providers in the same project to manage various IaaS, PaaS, and SaaS, but only one provider per project
 ( ) you can use multiple standard or custom providers in the same project, and even have mulitple instances of a single provider per project
