@@ -7,6 +7,6 @@ A directed graph of dependencies can be show using the CLI:
 
 A image visualizing this can be made using dot:
 
-`terraform graph| dot -Tpng > graph.png`{{execute}}
+`terraform graph| dot -Tpng > /home/scrapbook/tutorial/www/graph.png`{{execute}}
 
 ![example graph.png](/bhood4/scenarios/tf101/assets/graph.png)
