@@ -7,8 +7,7 @@
     "steps": [
       {
         "title": "Terraform install",
-        "text": "install.md",
-        "verify": "install-verify.sh"
+        "text": "install.md"
       },
       {
         "title": "Terraform Projects",
